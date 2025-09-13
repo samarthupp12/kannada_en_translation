@@ -1,0 +1,8 @@
+torch
+transformers
+datasets
+sentencepiece
+pytesseract
+openai-whisper
+opencv-python
+googletrans-python
