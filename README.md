@@ -12,29 +12,28 @@ The translation is powered by a *fine-tuned MT5 model* on the ai4bharat/Samanant
 
 ## 🚀 Setup
 
-bash
+```bash
 git clone https://github.com/yourusername/kannada_en_translation.git
 cd kannada_en_translation
 pip install -r requirements.txt
 sudo apt-get install -y tesseract-ocr-kan
 sudo apt install ffmpeg
- 
+ ```
 ---
 
 ## Model training
 Run the training script to fine-tune the MT5 model on the Samanantar dataset
-bash
+```bash
 python train_mt5.py
-
+```
 Model checkpoints will be saved in ./mt5-kannada-en.
 You can configure dataset size, learning rate, and epochs in config.py.
 
 ## 🔮 Run Inference
 
-bash
+```bash
 python inference.py
-
-
+```
 ## 🌐 Multimodal Translation
 Translate from image, audio, or text inputs with a single command:
 ```bash
